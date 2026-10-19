@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.3/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.7.3/core.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>ICT Q2 PA2</title>
+</head>
+<body>
+    <h2>Add a new club member!</h2>
+    <form>
+        <input type="text" id="first" placeholder="Enter your first name"><br>
+        <input type="text" id="surname" placeholder="Enter your surname"><br>
+        <input type="button" py-click="club_member" value="Search">
+    </form>
+    <div id="results"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
